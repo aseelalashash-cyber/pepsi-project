@@ -1,0 +1,139 @@
+ *{
+    padding: 0px;
+    margin: 0px;
+ }
+ .home{
+    overflow-x: hidden;
+    background-color: #0162be;
+    height: 100vh;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ .contener{
+    margin: 0px 50px;
+    height: 100%;   
+ }
+ nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+ }
+nav .logo{
+    width: 60px;
+   
+}
+nav ul{
+    display: flex;
+align-items: center;
+list-style: none;
+}
+nav ul a{
+    color: #fff;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+}
+.content{
+    width: 90%px;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70%;
+   
+}
+.imgpepsi img{
+    width: 250px;
+   padding-left: 80%;
+   animation: anmation1 1s ;
+}
+.text{
+    padding: 40x;
+    margin: 20px;
+}
+.text input{
+border-radius: 30px;
+width: 250px;
+height: 30px;
+margin: 20px;
+font-size: 14px;
+font-weight: 500;
+
+}
+.text p{
+    width: 500px;
+    margin: 20px;
+}
+input:hover{
+    background-color: red;
+    color:#fff;
+    bottom: 10px;
+  transition: background-color 0.5s ease-in;
+}
+.icons{
+    margin-right: 5%;
+}
+.icons a{
+    display: block;
+    padding: 16px;
+    color: #fff;
+    animation: anmation1 1s;
+   
+}
+
+a:hover{
+  text-decoration: underline;
+}
+.three img{
+    width: 100px;
+     display: block;
+    margin: auto;
+    animation: anmation2 1s;
+
+}
+ 
+ 
+.imgpepsi:hover{
+    width: 350px;
+    float: 30px;
+    }
+    @keyframes anmation1{
+        0%{
+            transform: translateX(500px);
+        }
+        100%{
+            transform: translateX(0px);
+        }
+    }
+    @keyframes anmation2{
+        0%{
+            transform: translatex(-400px);
+        }
+        100%{
+            transform: translatex(0px);
+        }
+    }
+    .icons a i:hover{
+        color: red;
+        transition:  color 0.5s ease-in;
+        
+    }
+    span{
+     
+     background: linear-gradient(to top right rgb(77, 255, 0) rgb(11, 11, 27));
+     background-size: 300% 300%;
+     -webkit-background-clip: text;
+      -webkit-text-fill-color: red;
+     animation: span1 5s linear infinite;
+    }
+    @keyframes span1{
+        0%{
+       background-position: 0% 100%;
+        }
+        100%{
+             background-position: 100% 0%;
+        
+        }
+    }
